@@ -3,14 +3,15 @@
     padding: 0px;
     box-sizing: border-box;
 }
-
+/*Desafio nivel agua*/
 #nivel-agua{
     background-color: darkgreen;
     padding: 10px;
-    display: flex;
+    display: none;
 
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 .nivel-agua{
@@ -18,4 +19,31 @@
     height: 300px;
     background-color: antiquewhite;
     margin: 10px;
+}
+
+/*Desafio nivel danoninho*/
+
+#nivel-danoninho{
+    background-color: antiquewhite;
+    padding: 10px;
+}
+
+#cabecalho{
+    background-color: chocolate;
+    height: 30px;
+}
+#conteudo-principal{
+    background-color: darkgray;
+    padding: 0px;
+    display: flex;
+}
+.nivel-danoninho{
+    background-color: chocolate;
+    width: 50%;
+    height: 100px;
+    margin: 10px 0px 0px 0px;
+}
+
+#div1{
+    margin-right: 10px;
 }

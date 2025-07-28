@@ -1,0 +1,32 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+#NivelAgua{
+    background-color: fuchsia;
+    /*background-color: muda a cor */
+    padding: 10px;
+    /* padding: espaço interno do elemento(entre o conteudo e a borda*/
+    display: flex;
+
+    justify-content: center;
+    /* justify-content: alinha os itens no eixo principal */
+    align-items: center;
+    /* align-items:alinha os itens no eixo cruzado */
+    flex-wrap: wrap;
+    /* flex-wrap: define se os itens quebram para novas linhas */
+
+
+}
+.NivelAgua{
+    width: 150px;
+    /* width:define a largura do elemento */
+    height: 250px;
+    /* heigth:define a altura do elemento */
+    background-color: deeppink;
+    margin: 10px;
+    /* margin:espaço externo do elemento(afasta dos outros ao redor) */
+
+}
