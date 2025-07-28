@@ -1,15 +1,54 @@
-header{
-   /* font-size: 100px; Comando que aumenta o texto*/
-   border:1px solid black;
-   /*background-color: aqua; comando que alterar cor de fundo*/
+ /* font-size: 100px; Comando que aumenta o texto*/
+ /*background-color: aqua; comando que alterar cor de fundo*/
+/*header,section,article,aside,main,footer A virgula server com E*/
+/*width: 100vw; largura
+height: 100vh; altura
+margin: 0px; Propriedades de espeçamento*/
+/*# pega os IDs*/
+/*padding: 10px opx; top/right*/
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.estruturas_semanticas{
+border: 0px solid black;
+
+}
+#menu_principal{
+    width: 90%;
+    background-color: beige;
+    padding: 10px;
+    margin: 10px;
+} 
+#cabecalho{
+    width: 100vw;
+    background-color: bisque;
+    padding: 10px 0px 10px 0px;
+    /*Top Right Bottom Left*/
 }
 
-nav,section,article,aside,main,footer{
-border: 1px solid black
+section{
+    background-color: rgb(206, 218, 241);
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+
+    
 }
-body{
-    background-color: lightgrey;
+
+.bloco_generico{
+    background-color: darkgreen;
+    width: 200px;
+    height: 300px;
+    margin: 10px;
 }
+
 article{
     display: inline;
 }

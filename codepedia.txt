@@ -1,0 +1,8 @@
+<!-- Estruturas Semânticas da Web -->
+<header > <!--Conteudo semântico de cabeçalho-->
+<nav> <!--Conteudo semantico de navegação-->
+<main> <!--Conteudo semantico principal -->
+<section> <!--Conteudo semantico da seção-->
+<article> <!-- Conteudo semantico de artigos -->
+<aside> <!--Conteudo semântico de lateral-->
+<Footer> <!-- Conteudo semantico de Rodapé-->
