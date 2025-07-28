@@ -1,0 +1,40 @@
+*{
+   margin: 0px;
+   padding: 0px;
+   box-sizing: border-box;
+}
+
+div{
+    background-color: rgb(255, 255, 255);
+    height: 100px;
+    margin: 0px;
+}
+
+#bloco1{
+    background-color: aqua;
+    order: 3;
+    flex-basis: 100px;
+}
+#bloco2{
+    background-color: blue;
+    order: 2;
+    /* grow shrik basis-prioridade */
+    flex: 0 1 10px;
+}
+
+#bloco3{
+    background-color: deeppink;
+    order: 1;
+    flex-shrink: 1;
+    flex-basis: 100px;
+}
+
+section{
+    background-color: darksalmon;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: start;
+    height: 70vh;
+    gap: 10px;
+}

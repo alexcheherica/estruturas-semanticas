@@ -9,7 +9,7 @@
     /*background-color: muda a cor */
     padding: 10px;
     /* padding: espaço interno do elemento(entre o conteudo e a borda*/
-    display: flex;
+    display: none;
 
     justify-content: center;
     /* justify-content: alinha os itens no eixo principal */
@@ -30,3 +30,5 @@
     /* margin:espaço externo do elemento(afasta dos outros ao redor) */
 
 }
+
+
