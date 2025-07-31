@@ -14,7 +14,7 @@
     display: flex;
     gap: 10px;
     justify-content: center;
-    align-items: center;
+    align-items: start;
 
 }
 
@@ -22,9 +22,45 @@
     background-color: rgb(165, 20, 33);
     width: 200px;
     height: 300px;
+
+    flex: 2 0 200px;
 }
 
 #caixa_direita{
     /* Flexbox - propriedades de alteração de layout */
     flex: 2 0 200px;
+}
+
+/* Nivel Suco */
+
+#cabecalho{
+    background-color: rgb(165, 20, 33);
+    padding: 10px;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+#logo{
+    background-color: rgb(1, 1, 141);
+    width: 100px;
+    height: 90px;
+}
+
+#menu_principal{
+    padding: 5px;
+    
+}
+
+#menu_principal,ul{
+    display: flex;
+    gap: 10px;
+
+}
+
+li{
+    background-color: rgb(1, 1, 141);
+    width: 100px;
+    height: 90px;
+
 }
