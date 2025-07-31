@@ -1,0 +1,30 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+#nivel_agua{
+    background-color: bisque;
+    height: 100vh;
+    padding: 20px;
+
+    /* FlexBox - Propriedades de estruturação do layout pelo pai */
+
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.bloco_generico{
+    background-color: rgb(165, 20, 33);
+    width: 200px;
+    height: 300px;
+}
+
+#caixa_direita{
+    /* Flexbox - propriedades de alteração de layout */
+    flex: 2 0 200px;
+}
